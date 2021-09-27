@@ -2,7 +2,7 @@
 
 The implementation involves using <a href ="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md">Tensorflow Object Detection API</a>
 
-## PLEASE MAKE SURE THAT YOU PERFORM ALL THE INSTRUCTIONS IN A VIRTUAL ENVIROMENT!!!!
+## PLEASE MAKE SURE THAT YOU PERFORM ALL THE INSTRUCTIONS IN A VIRTUAL ENVIROMENT (PREFEREABLY ON CLOUD, PAPERSPACE OR COLAB IS FINE AS WELL)!!!!
 
 ## Windows Implementation
 
