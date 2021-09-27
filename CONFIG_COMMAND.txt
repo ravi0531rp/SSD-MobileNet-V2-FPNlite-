@@ -1,0 +1,19 @@
+python generate_tfrecords.py --path_to_image D:\ObjectDetection\SSD_EXPERIMENT2\data\train --path_to_annot D:\ObjectDetection\SSD_EXPERIMENT2\data\train\train.csv --path_to_label_map D:\ObjectDetection\SSD_EXPERIMENT2\data\labelmap.pbtxt --path_to_save_tfrecords D:\ObjectDetection\SSD_EXPERIMENT2\data\train\train.record
+
+# make sure to upgrade numpy
+
+python generate_tfrecords.py --path_to_image D:\ObjectDetection\SSD_EXPERIMENT\data\test --path_to_annot D:\ObjectDetection\SSD_EXPERIMENT\data\test\test.csv --path_to_label_map D:\ObjectDetection\SSD_EXPERIMENT\data\labelmap.pbtxt --path_to_save_tfrecords D:\ObjectDetection\SSD_EXPERIMENT\data\test\test.record
+
+
+## Training
+python object_detection/model_main_tf2.py ^
+    --pipeline_config_path=D:/ObjectDetection/SSD_EXPERIMENT2/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8.config ^
+    --model_dir=D:\ObjectDetection\SSD_EXPERIMENT2\training_process ^
+    --alsologtostderr
+
+## Validation
+python object_detection/model_main_tf2.py ^
+    --pipeline_config_path=D:/ObjectDetection/SSD_EXPERIMENT/ssd_mobilenet_v2_fpnlite_640x640_coco17_tpu-8.config ^
+    --checkpoint_dir=D:\ObjectDetection\SSD_EXPERIMENT\training_process ^
+    --model_dir=D:\ObjectDetection\SSD_EXPERIMENT\training_process ^
+    --alsologtostderr
