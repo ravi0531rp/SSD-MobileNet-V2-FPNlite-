@@ -9,9 +9,9 @@ The implementation involves using <a href ="https://github.com/tensorflow/models
 ## * PLEASE MAKE SURE THAT YOU PERFORM ALL THE INSTRUCTIONS IN A VIRTUAL ENVIROMENT (PREFEREABLY ON CLOUD; PAPERSPACE OR COLAB IS FINE AS WELL)!!!!
 
 ## * Directory Structure
-                                                               ROOT_________DIRECTORY
-                                                             /                      \
-                                                           data                     training_process
+                                                               ROOT__________DIRECTORY
+                                                             /           |           \
+                                                           data       config_file     training_process
                                                         /    |   \                          |                
                                          pretrained_model train  test                      train  
                                                           /          \
