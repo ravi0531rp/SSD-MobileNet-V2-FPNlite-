@@ -6,7 +6,17 @@ This repository contains an implementation of the Tensorflow Object Detection AP
 
 The implementation involves using <a href ="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md">Tensorflow Object Detection API</a>
 
-## PLEASE MAKE SURE THAT YOU PERFORM ALL THE INSTRUCTIONS IN A VIRTUAL ENVIROMENT (PREFEREABLY ON CLOUD; PAPERSPACE OR COLAB IS FINE AS WELL)!!!!
+## * PLEASE MAKE SURE THAT YOU PERFORM ALL THE INSTRUCTIONS IN A VIRTUAL ENVIROMENT (PREFEREABLY ON CLOUD; PAPERSPACE OR COLAB IS FINE AS WELL)!!!!
+
+## * Directory Structure
+                                                              <b> ROOT DIRECTORY </b>
+                                                             /                      \
+                                                       <b>data</b>                  <b> training_process</b>
+                                                    /       |      \                          |                
+                               <b>pretrained_model</b> <b>train</b>  <b>test</b>          <b>train</b>  
+                                                            |             |
+                                                         train.record     test.record
+                                                     
 
 ## Windows Implementation
 
