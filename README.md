@@ -2,6 +2,8 @@
 
 This repository contains an implementation of the Tensorflow Object Detection API based Transfer Learning on SSD MobileNet V2 FPNLite Architecture. You can use the steps mentioned below to do transfer learning on any other model present in the Model Zoo of Tensorflow.
 
+## Please refer to this <a href="https://github.com/ravi0531rp/SSD-MobileNet-V2-FPNlite-/blob/master/SSD_V2_FPN_LITE_Colab.ipynb"> Colab Notebook </a> to run the Tranfer learning on Colab.
+
 The implementation involves using <a href ="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md">Tensorflow Object Detection API</a>
 
 ## PLEASE MAKE SURE THAT YOU PERFORM ALL THE INSTRUCTIONS IN A VIRTUAL ENVIROMENT (PREFEREABLY ON CLOUD; PAPERSPACE OR COLAB IS FINE AS WELL)!!!!
