@@ -9,13 +9,13 @@ The implementation involves using <a href ="https://github.com/tensorflow/models
 ## * PLEASE MAKE SURE THAT YOU PERFORM ALL THE INSTRUCTIONS IN A VIRTUAL ENVIROMENT (PREFEREABLY ON CLOUD; PAPERSPACE OR COLAB IS FINE AS WELL)!!!!
 
 ## * Directory Structure
-                                                              <b> ROOT DIRECTORY </b>
+                                                               ROOT_________DIRECTORY
                                                              /                      \
-                                                       <b>data</b>                  <b> training_process</b>
-                                                    /       |      \                          |                
-                               <b>pretrained_model</b> <b>train</b>  <b>test</b>          <b>train</b>  
-                                                            |             |
-                                                         train.record     test.record
+                                                           data                     training_process
+                                                        /    |   \                          |                
+                                         pretrained_model train  test                      train  
+                                                          /          \
+                                                     train.record     test.record
                                                      
 
 ## Windows Implementation
