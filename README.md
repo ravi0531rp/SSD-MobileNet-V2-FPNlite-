@@ -1,6 +1,15 @@
 # SSD-MobileNet-V2-FPNlite-
 
+
 This repository contains an implementation of the Tensorflow Object Detection API based Transfer Learning on SSD MobileNet V2 FPNLite Architecture. You can use the steps mentioned below to do transfer learning on any other model present in the Model Zoo of Tensorflow.
+
+## Requirements
+
+[![Python 3.6](https://img.shields.io/badge/Python-3.6-3776AB)](https://www.python.org/downloads/release/python-360/)
+[![TensorFlow 2.6](https://img.shields.io/badge/TensorFlow-2.6-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.6.0)
+[![Protobuf Compiler >= 3.0](https://img.shields.io/badge/ProtoBuf%20Compiler-%3E3.0-brightgreen)](https://grpc.io/docs/protoc-installation/#install-using-a-package-manager)
+
+
 
 ## Please refer to this <a href="https://github.com/ravi0531rp/SSD-MobileNet-V2-FPNlite-/blob/master/SSD_V2_FPN_LITE_Colab.ipynb"> Colab Notebook </a> to run the Transfer learning on Colab.
 
