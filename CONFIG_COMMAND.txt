@@ -1,3 +1,6 @@
+## Note :- replace ^ with \ in Linux environments!
+
+
 python generate_tfrecords.py --path_to_image D:\ObjectDetection\SSD_EXPERIMENT2\data\train --path_to_annot D:\ObjectDetection\SSD_EXPERIMENT2\data\train\train.csv --path_to_label_map D:\ObjectDetection\SSD_EXPERIMENT2\data\labelmap.pbtxt --path_to_save_tfrecords D:\ObjectDetection\SSD_EXPERIMENT2\data\train\train.record
 
 # make sure to upgrade numpy
