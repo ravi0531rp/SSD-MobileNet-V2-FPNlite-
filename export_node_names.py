@@ -2,7 +2,7 @@
 ## This helps debug if we get any error after exporting
 ## My goal was to convert the frozen_inference_graph into Intel OpenVino and Nvidia TensorRT format
 ## But, I was getting errors. So, I used this script to debug the same.
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 GRAPH_PB_PATH = '/content/drive/MyDrive/SSD_EXPERIMENT5/output_inf_graph_SSD_FPN_COLAB_v2/frozen_inference_graph.pb'
 with tf.Session() as sess:
